@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationery Haven</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CSS (optional) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div style="background-color: #f2f4f7; display: flex; min-height: 32px; align-items: center;">
+        <div class="top_nav">
+            <div class="location">
+                <svg data-v-698cad85="" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" class="ui-icon ">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M7 11C7 8.23858 9.23858 6 12 6C14.7614 6 17 8.23858 17 11C17 13.2317 15.8079 15.2429 14.5153 16.7262C13.8738 17.4623 13.2212 18.0525 12.7097 18.4561C12.4536 18.6582 12.2375 18.8098 12.0802 18.9082C12.0504 18.9268 12.0237 18.9429 12 18.9567C11.9763 18.9429 11.9496 18.9268 11.9198 18.9082C11.7625 18.8098 11.5464 18.6582 11.2903 18.4561C10.7788 18.0525 10.1262 17.4623 9.48471 16.7262C8.19208 15.2429 7 13.2317 7 11ZM12 5C8.68629 5 6 7.68629 6 11C6 13.5808 7.36827 15.8196 8.73081 17.3832C9.41691 18.1705 10.1156 18.803 10.6709 19.2411C10.9482 19.46 11.1944 19.634 11.3897 19.7561C11.4866 19.8167 11.5778 19.8688 11.6582 19.9076C11.6982 19.9269 11.7428 19.9465 11.7889 19.9623C11.8251 19.9747 11.9044 20 12 20C12.0956 20 12.1749 19.9747 12.2111 19.9623C12.2572 19.9465 12.3018 19.9269 12.3418 19.9076C12.4222 19.8688 12.5134 19.8167 12.6103 19.7561C12.8056 19.634 13.0518 19.46 13.3291 19.2411C13.8844 18.803 14.5831 18.1705 15.2692 17.3832C16.6317 15.8196 18 13.5808 18 11C18 7.68629 15.3137 5 12 5ZM11 11C11 10.4477 11.4477 10 12 10C12.5523 10 13 10.4477 13 11C13 11.5523 12.5523 12 12 12C11.4477 12 11 11.5523 11 11ZM12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9Z"
+                        fill="#141415"></path>
+                </svg>
+                <p class="region">Город: <span style="text-decoration: underline; font-weight: 500;">
+                        Ташкент </span></p>
+                <a href="#!" style="font-weight: 500; color: #1f2026;">Пункты видачи</a>
+            </div>
+            <p style="color: grey; font-weight: 400; font-size: .875rem;">Доставим ваш заказ бесплатно — всего за 1
+                день!</p>
+            <div class="top_link">
+                <a href="#!">Вопрос-ответ</a>
+                <span>Мои заказы</span>
+
+                <select name="languages" id="lang">
+                    <option value="en">English</option>
+                    <option value="ru">
+                        <span class="icon_ru">
+                            <svg data-v-634bcbae="" width="20" height="20" viewBox="0 0 20 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="ui-icon ">
+                                <mask id="mask0_9302_3025" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
+                                    y="0" width="20" height="21">
+                                    <path
+                                        d="M10 20.5C15.5228 20.5 20 16.0228 20 10.5C20 4.97715 15.5228 0.5 10 0.5C4.47715 0.5 0 4.97715 0 10.5C0 16.0228 4.47715 20.5 10 20.5Z"
+                                        fill="#F4F5F5"></path>
+                                </mask>
+                                <g mask="url(#mask0_9302_3025)">
+                                    <rect y="0.5" width="20" height="20" fill="white"></rect>
+                                    <rect y="13.5" width="20" height="7" fill="#E63838"></rect>
+                                    <rect y="7" width="20" height="7" fill="#3131C4"></rect>
+                                </g>
+                            </svg>
+                        </span>
+                        <span class="text_ru">Russian</span>
+                    </option>
+                    <option value="uz">
+                        <span class="icon_uz">
+                            <svg data-v-634bcbae="" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="ui-icon ">
+                                <mask id="mask0_9302_12006" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
+                                    y="0" width="20" height="20">
+                                    <path
+                                        d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"
+                                        fill="#F4F5F5"></path>
+                                </mask>
+                                <g mask="url(#mask0_9302_12006)">
+                                    <rect width="20" height="20" fill="#0099B5"></rect>
+                                    <rect y="13" width="20" height="7" fill="#1EB53A"></rect>
+                                    <rect y="13" width="20" height="1" fill="#CE1126"></rect>
+                                    <rect y="6" width="20" height="1" fill="#CE1126"></rect>
+                                    <rect y="6.5" width="20" height="7" fill="white"></rect>
+                                </g>
+                            </svg>
+                        </span><span class="text_uz">Uzbek</span>
+                    </option>
+
+                </select>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <header class="header-content">
+        <nav class="nav">
+            <a href="index.html" class="logo">Stationery Haven</a>
+            <div class="search_cot">
+                <button class="catalog">Catalog</button>
+                <div class="search_form">
+                    <input type="text" placeholder="Искать товары и котегории">
+                    <button class=" search-button">
+                        <div  class="slot default">
+                            <svg  width="28" height="28" viewBox="0 0 24 24" fill="black"
+                                xmlns="http://www.w3.org/2000/svg" class="ui-icon  magnifying-glass">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5 10.5C15.5 13.2614 13.2614 15.5 10.5 15.5C7.73858 15.5 5.5 13.2614 5.5 10.5C5.5 7.73858 7.73858 5.5 10.5 5.5C13.2614 5.5 15.5 7.73858 15.5 10.5ZM14.3398 15.7451C13.264 16.5341 11.9364 17 10.5 17C6.91015 17 4 14.0899 4 10.5C4 6.91015 6.91015 4 10.5 4C14.0899 4 17 6.91015 17 10.5C17 11.9364 16.5341 13.264 15.7451 14.3398L19.709 18.3036C20.097 18.6917 20.097 19.3209 19.709 19.709C19.3209 20.097 18.6917 20.097 18.3036 19.709L14.3398 15.7451Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="user-menu">
+                <div class="action-button" id="openBtn">
+                    <svg data-v-698cad85="" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" class="ui-icon ">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 3C9.79086 3 8 4.79086 8 7V8C8 10.2091 9.79086 12 12 12C14.2091 12 16 10.2091 16 8V7C16 4.79086 14.2091 3 12 3ZM9.5 7C9.5 5.61929 10.6193 4.5 12 4.5C13.3807 4.5 14.5 5.61929 14.5 7V8C14.5 9.38071 13.3807 10.5 12 10.5C10.6193 10.5 9.5 9.38071 9.5 8V7ZM5.50232 19.3686C5.97321 16.2577 9.01803 14.5 12.0022 14.5C14.9858 14.5 18.031 16.2577 18.5019 19.3686C18.5046 19.3866 18.5025 19.3972 18.5 19.4048C18.497 19.4137 18.4903 19.4269 18.4759 19.442C18.4453 19.4741 18.3894 19.5039 18.3171 19.5039H5.68718C5.61487 19.5039 5.55898 19.4741 5.52838 19.442C5.51394 19.4269 5.50726 19.4137 5.50427 19.4048C5.50174 19.3972 5.49961 19.3865 5.50232 19.3686ZM12.0022 13C8.57321 13 4.64037 15.0404 4.01922 19.1441C3.85624 20.2208 4.75727 21.0039 5.68718 21.0039H18.3171C19.247 21.0039 20.148 20.2208 19.985 19.1441C19.3638 15.0404 15.4306 13 12.0022 13Z"
+                            fill="black"></path>
+                    </svg>
+                    <span class="action-button__label" > Account</span>
+                </div>
+                <a href="#" class="action-button">
+                    <svg data-v-698cad85="" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" class="ui-icon ">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.5 5.5C5.26935 5.5 3.5 7.30906 3.5 9.5C3.5 10.4282 3.87684 11.4436 4.5487 12.5105C5.21692 13.5716 6.14148 14.6274 7.15127 15.6219C8.55769 17.007 10.0318 18.1879 11.1708 19.1003C11.4734 19.3427 11.7523 19.5661 12 19.7694C12.2477 19.5661 12.5266 19.3427 12.8292 19.1003C13.9682 18.1879 15.4423 17.007 16.8487 15.6219C17.8585 14.6274 18.7831 13.5716 19.4513 12.5105C20.1232 11.4436 20.5 10.4282 20.5 9.5C20.5 7.30898 18.7314 5.5 16.5 5.5C14.3473 5.5 13.0738 7.20226 12.7262 7.74742C12.3889 8.27655 11.6111 8.27653 11.2738 7.74742C10.9262 7.20225 9.65273 5.5 7.5 5.5ZM2 9.5C2 6.49094 4.43065 4 7.5 4C9.73143 4 11.2249 5.30207 12 6.21581C12.7751 5.30207 14.2686 4 16.5 4C19.5702 4 22 6.49102 22 9.5C22 10.8218 21.4706 12.1189 20.7206 13.3098C19.9669 14.5066 18.954 15.6539 17.9013 16.6906C16.4429 18.1269 14.808 19.4384 13.6502 20.3672C13.1649 20.7565 12.7634 21.0786 12.4939 21.3144C12.2111 21.5619 11.7889 21.5619 11.5061 21.3144C11.2366 21.0786 10.8351 20.7565 10.3498 20.3672C9.19201 19.4384 7.55712 18.1269 6.09873 16.6906C5.04602 15.6539 4.03308 14.5066 3.27942 13.3098C2.52941 12.1189 2 10.8218 2 9.5Z"
+                            fill="#141415"></path>
+                    </svg>
+                    <span class="action-button__label"> 
+                        Favorites</span>
+                </a>
+                <a href="#" class="action-button">
+                    <div class="cart-enter"></div><svg data-v-698cad85="" width="24" height="24" viewBox="0 0 24 24"
+                        fill="black" xmlns="http://www.w3.org/2000/svg" class="ui-icon  slightly transparent icon-cart">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M9 6.5C9 4.88779 10.2402 3.5 12 3.5C13.7598 3.5 15 4.88779 15 6.5V7.5H9V6.5ZM7.5 9V11.5H9V9H15V11.5H16.5V9H18.5V19.75C18.5 20.1642 18.1642 20.5 17.75 20.5H6.25C5.83579 20.5 5.5 20.1642 5.5 19.75V9H7.5ZM7.5 7.5V6.5C7.5 4.11221 9.35984 2 12 2C14.6402 2 16.5 4.11221 16.5 6.5V7.5H19.25H20V8.25V19.75C20 20.9926 18.9926 22 17.75 22H6.25C5.00736 22 4 20.9926 4 19.75V8.25V7.5H4.75H7.5Z">
+                        </path>
+                    </svg>
+                    <span class="action-button__label"> Cart </span>
+                </a>
+            </div>
+        </nav>
+    
+
+
+<div class="div" id="content">
+        <section class="wrapper">
+            <div id="closeBtn" >
+                <svg  width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="ui-icon ">
+                <rect width="24" height="24" rx="6" fill="#DFE0E2"></rect>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.28033 7.21967C7.98744 6.92678 7.51256 6.92678 7.21967 7.21967C6.92678 7.51256 6.92678 7.98744 7.21967 8.28033L10.9393 12L7.21967 15.7197C6.92678 16.0126 6.92678 16.4874 7.21967 16.7803C7.51256 17.0732 7.98744 17.0732 8.28033 16.7803L12 13.0607L15.7197 16.7803C16.0126 17.0732 16.4874 17.0732 16.7803 16.7803C17.0732 16.4874 17.0732 16.0126 16.7803 15.7197L13.0607 12L16.7803 8.28033C17.0732 7.98744 17.0732 7.51256 16.7803 7.21967C16.4874 6.92678 16.0126 6.92678 15.7197 7.21967L12 10.9393L8.28033 7.21967Z" fill="#ce42f1"></path>
+                </svg>
+            </div>
+            <div class="form signup">
+              <header>Signup</header>
+              <form action="#">
+                <input type="text" placeholder="Full name" required />
+                <input type="text" placeholder="Email address" required />
+                <input type="password" placeholder="Password" required />
+                <div class="checkbox">
+                  <input type="checkbox" id="signupCheck" />
+                  <label for="signupCheck">I accept all terms & conditions</label>
+                </div>
+                <input type="submit" value="Signup" />
+              </form>
+            </div>
+            <div class="form login">
+              <header>Login</header>
+              <form action="#">
+                <input type="text" placeholder="Email address" required />
+                <input type="password" placeholder="Password" required />
+                <a href="#">Forgot password?</a>
+                <input type="submit" value="Login" />
+              </form>
+            </div>
+            
+          </section>
+
+
+</div>
+
+<div class="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item d-flex  active">
+            <img class="d-block " style="height:400px; width: 1240px;" src="1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block " style="height:400px; width: 1240px;" src="2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block " style="height:400px; width: 1240px;" src="3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</div>
+</header>
+
+
+
+
+
+
+<script>
+    const wrapper = document.querySelector(".wrapper"),
+      signupHeader = document.querySelector(".signup header"),
+      loginHeader = document.querySelector(".login header");
+    loginHeader.addEventListener("click", () => {
+      wrapper.classList.add("active");
+    });
+    signupHeader.addEventListener("click", () => {
+      wrapper.classList.remove("active");
+    });
+
+    // Function to open the div
+    function openDiv() {
+    var div = document.getElementById('content');
+    div.classList.add('slideInLeft');
+    div.style.display = 'block';
+
+    document.getElementById('content').addEventListener('click', function(event) {
+      if (event.target === this) {
+        closeDiv();
+      }
+    });
+  }
+
+  // Function to close the div
+  function closeDiv() {
+    var div = document.getElementById('content');
+    div.classList.remove('slideInLeft');
+    div.classList.add('slideOutRight');
+    setTimeout(function() {
+      div.style.display = 'none';
+      div.classList.remove('slideOutRight');
+    }, 400); 
+  }
+
+  // Adding event listener to the close button
+  document.getElementById('openBtn').addEventListener('click', openDiv);
+  document.getElementById('closeBtn').addEventListener('click', closeDiv);
+ 
+  
+  </script>
+
+
+
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
+<span>
